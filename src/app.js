@@ -6,7 +6,7 @@ app.use(express.json());
 app.use('/api', router);
 
 app.get('/', async (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Worlddd!');
 });
 
 export default app;
